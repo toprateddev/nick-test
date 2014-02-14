@@ -1,0 +1,60 @@
+* {
+	padding: 0;
+	margin: 0;}
+
+body {
+	width: 100%;
+	height: 100%;
+	position: fixed;}
+
+.wrapper {
+	}
+	.wrapper .header {
+		border-bottom: solid 5px;
+		width: 100%;
+		height: 95px;
+		position: fixed;
+		z-index: 999;
+		padding: 20px 300px;
+		background: #2c2c2c;
+		opacity: 0.9;}
+		.wrapper .header #menu {
+			margin-top: 50px;}
+			.wrapper .header #menu .menu-item {
+				width: 120px;
+				height: 40px;
+				float: left;
+				font-size: 30px;
+				font-weight: bold;
+				list-style: none;
+				color: white;
+				padding-top: 5px;
+				text-align: center;
+				margin: 0 34px;}
+				.wrapper .header #menu .menu-item:hover {
+					background: #867777;
+					cursor: pointer;}
+			.wrapper .header #menu .menu-item-selected {
+				background: #030000;}
+
+	.wrapper .container {
+		margin: 0 auto;
+		height: 600px;
+		width: 1000px;}
+		.wrapper .container .sections {
+			position: relative;
+			top: 140px;
+			width: 100%;}
+			.wrapper .container .sections .section {list-style: none;
+				height: 200px;
+				font-size: 120px;
+				text-align: center;
+				padding-top: 200px;}
+			.wrapper .container .sections #section1 {
+				background: red;}
+			.wrapper .container .sections #section2 {
+				background: green;}
+			.wrapper .container .sections #section3 {
+				background: blue;}
+			.wrapper .container .sections #section4 {
+				background: grey;}
